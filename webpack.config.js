@@ -3,8 +3,8 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 var path = require('path');
 
 // change these variables to fit your project
-const jsPath= './js';
-const cssPath = './css';
+const jsPath= './src/js';
+const cssPath = './src/css';
 const outputPath = 'dist';
 const localDomain = 'http://test-dev.test';
 const entryPoints = {
